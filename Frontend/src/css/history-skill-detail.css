@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body {
+  max-width: 375px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+}
+
+.skill-chart p {
+    font-weight: 700;
+}
+
+.skill-list-container {
+    background-color: #152B49;
+    padding: 1px 20px;
+    margin: 35px 20px 0 20px;
+    border-radius: 20px;
+}
+
+.skill-list {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 30px 0;
+}
+
+.skill-list .skill-name {
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.skill-list .skill-percentage {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+.skill-description-container {
+  margin: 50px 20px;
+  text-align: start;
+}
+
+.skill-description-container h3 {
+  font-weight: 700;
+}
+
+.description-skill {
+  border: 1px solid #152B49;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.description-skill h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.description-skill p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}

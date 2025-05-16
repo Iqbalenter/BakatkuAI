@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body {
+  max-width: 375px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+}
+
+.full-screen-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.back-button {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.back-button .back {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #FDFDFD;
+    border: 1px solid #C7BBBB;
+  }
+  
+  .back-button Image {
+    width: 40%;
+  }
+
+.back-button h3 {
+    margin: 10px 75px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.file-drop-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.file-drop-area:hover {
+  border-color: #1f2a44;
+}
+
+.file-icon {
+  font-size: 50px;
+  color: #1f2a44;
+}
+
+.upload-text {
+  font-weight: bold;
+  color: #000;
+}
+
+.format-text {
+  color: gray;
+  font-weight: 600;
+}
+
+.file-name {
+  font-weight: bold;
+  color: #1f2a44;
+}
+
+.submit-btn {
+  margin-bottom: 200px;
+  width: 80%;
+  background-color: #132A4D;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0e1a30;
+}
+
+/* Sembunyikan input file */
+input[type="file"] {
+  display: none;
+}
+

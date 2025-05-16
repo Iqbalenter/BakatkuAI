@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body {
+  max-width: 375px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+}
+
+.verification-container {
+  background-image: url("../assets/LoginBackground.png");
+}
+
+.back-button {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+.back-button .back {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #FDFDFD;
+    border: none;
+  }
+  
+  .back-button Image {
+    width: 40%;
+  }
+
+.title h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 24px;
+    color: #FDFDFD;
+    margin: 0 0 0 0;
+}
+
+.verif-container {
+    background-color: #F9F9F9;
+    margin: 40px 20px 200px 20px;
+    border-radius: 20px;
+    padding: 50px 10px;
+}
+
+.verif-container .text1 {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.verif-container .text2 {
+    font-size: 0.8em;
+    color: #686868;
+    font-weight: bold;
+    margin-top: 20px;
+}

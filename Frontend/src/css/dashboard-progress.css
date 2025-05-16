@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body {
+  max-width: 375px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+}
+
+.full-screen-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dashboard-progress-container {
+  background-image: url("../assets/dashboard-background.png")
+}
+
+.progress-trackers {
+  margin: 20px 40px;
+}
+
+.progress-trackers h3 {
+  text-align: start;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.progress-tracker {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tracker-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tracker-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.tracker-container input:read-only {
+  background: #f3f3f3;
+  cursor: not-allowed;
+}
+
+.tracker-container input.editable {
+  background: white;
+  cursor: text;
+  border-color: #007bff;
+}
+
+.edit-button {
+  margin: 20px 0 200px 0;
+  width: 100%;
+  padding: 10px;
+  background: #152B49;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.edit-button:hover {
+  background: #0056b3;
+}

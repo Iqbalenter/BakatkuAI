@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  font-family: "Montserrat", serif;
+}
+
+body {
+  max-width: 375px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  text-align: center !important;
+}
+
+.home-header {
+  background-image: url("../assets/abstractcoolmodern.png");
+}
+
+.container-fluid {
+  padding: 70px 10px;
+}
+
+.home-logo h1 {
+  color: #132B4E;
+  font-weight: 600;
+}
+
+.home-hero {
+  margin: 30px 20px 0 20px;
+}
+
+.home-hero h4 {
+  font-weight: 700;
+  margin: 0 0 0 0;
+  color: #132B4E;
+  font-size: 1.2rem;
+  padding: 0 0px;
+  text-align: start;
+}
+
+.home-hero p {
+  font-size: 1rem;
+  margin: 5px 0 0 0;
+  text-align: start;
+  font-weight: 600;
+}
+
+.header-button {
+  margin: 25px 0;
+}
+
+.header-button a {
+  background-color: #172B4F;
+  padding: 10px;
+  width: 88%;
+  border-radius: 28px;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.Card {
+  margin: 20px 35px;
+}
+
+.title h3 {
+  font-size: 1.1rem;
+  text-align: start;
+  font-weight: 700;
+}
+
+.cards {
+  margin: 65px 0;
+}
+
+.card-1 {
+  border: 2px solid #132B4E;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.card-1 .card-icon img {
+  width: 20%;
+}
+
+.card-1 .card-description {
+  margin: 20px 20px 0 20px;
+}
+
+.card-1 .card-description p {
+  text-align: start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #404040;
+}
+
+.card-2 {
+  margin-top: 40px;
+  border: 2px solid #132B4E;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.card-2 .card-icon img {
+  width: 17%;
+}
+
+.card-2 .card-description {
+  margin: 20px 20px 0 20px;
+}
+
+.card-2 .card-description p {
+  text-align: start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #404040;
+}
+
+
+@media (min-width: 376px) {
+  body {
+      width: 375px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: white;
+  }
+}

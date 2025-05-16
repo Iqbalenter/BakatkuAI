@@ -1,0 +1,48 @@
+.Navbar {
+    border-radius: 24px 24px 0 0;
+    position: fixed;
+    max-width: 375px;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: #132a4da3;
+    color: white;
+  }
+  
+.Navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.Navbar li {
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+.Navbar li p {
+    padding: 10px 0;
+    background-color: #16325E;
+    border-radius: 28px;
+    border: 2px solid #C3C3C3;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.Navbar .login {
+    text-decoration: none;
+    color: #C3C3C3;
+}
+
+.Navbar li p {
+    color: white;
+}
+
+.Navbar li p span {
+    margin-right: 5px;
+}
